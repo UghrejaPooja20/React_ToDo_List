@@ -8,7 +8,7 @@ export default function Todo_List() {
 
   let handleAddButtonTask = () => {
     console.log("button was clicked.");
-    // setTodos([...Todos , {task : newTask , id : uuidv4() }]);
+    
     
     setTodos((prevTodos)=>{
       return [...prevTodos , {task : newTask , id : uuidv4() ,isDone :false}]
